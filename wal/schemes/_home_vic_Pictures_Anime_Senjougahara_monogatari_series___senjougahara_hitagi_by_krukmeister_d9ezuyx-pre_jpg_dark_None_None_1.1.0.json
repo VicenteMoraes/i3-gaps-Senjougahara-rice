@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/vic/Pictures/Anime/Senjougahara/monogatari_series___senjougahara_hitagi_by_krukmeister_d9ezuyx-pre.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#381234",
+        "foreground": "#f1eae3",
+        "cursor": "#f1eae3"
+    },
+    "colors": {
+        "color0": "#381234",
+        "color1": "#B093A7",
+        "color2": "#CAAFB6",
+        "color3": "#DACDBE",
+        "color4": "#C1B8CA",
+        "color5": "#DCD0C1",
+        "color6": "#E1D7D2",
+        "color7": "#f1eae3",
+        "color8": "#a8a39e",
+        "color9": "#B093A7",
+        "color10": "#CAAFB6",
+        "color11": "#DACDBE",
+        "color12": "#C1B8CA",
+        "color13": "#DCD0C1",
+        "color14": "#E1D7D2",
+        "color15": "#f1eae3"
+    }
+}

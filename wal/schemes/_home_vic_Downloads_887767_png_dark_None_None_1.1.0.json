@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/vic/Downloads/887767.png",
+    "alpha": "260",
+    "special": {
+        "background": "#000000",
+        "foreground": "#d4c7d6",
+        "cursor": "#d4c7d6"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#77457C",
+        "color2": "#7B2E85",
+        "color3": "#8A1F92",
+        "color4": "#8E2A99",
+        "color5": "#9430A1",
+        "color6": "#916896",
+        "color7": "#d4c7d6",
+        "color8": "#948b95",
+        "color9": "#77457C",
+        "color10": "#7B2E85",
+        "color11": "#8A1F92",
+        "color12": "#8E2A99",
+        "color13": "#9430A1",
+        "color14": "#916896",
+        "color15": "#d4c7d6"
+    }
+}
