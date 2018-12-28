@@ -3,14 +3,16 @@
 """""""""""""""""""""""""""""""""""""""""""""
 	call plug#begin('~/.vim/plugged')
 		Plug 'dylanaraps/wal.vim'	
+		Plug 'PotatoesMaster/i3-vim-syntax'
 		Plug 'davidhalter/jedi-vim', {'for': 'python'}
 	call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""
 "				SETTINGS					"
 """""""""""""""""""""""""""""""""""""""""""""
+
 	filetype plugin on
-	set tabstop=4
+	set tabstop=2
 	set softtabstop=4
 	set shiftwidth=4
 	set noexpandtab
@@ -46,21 +48,36 @@
 """""""""""""""""""""""""""""""""""""""""""""
 augroup python 	
 "List Comprehension
-	autocmd FileType python inoremap ;l [<Space>for<Space><++><Space>in<Space><++>]<Space><++><Esc>F[li
-	set tabstop=4
+		autocmd FileType python inoremap ;l [<Space>for<Space><++><Space>in<Space><++>]<Space><++><Esc>F[li
+
+"Checks syntax
+		autocmd BufWritePost *.py call Check_Syntax()
 augroup END
+
+function Check_Syntax()
+		!python -m py_compile %
+		!rm -r __pycache__
+endfunction
+
 """""""""""""""""""""""""""""""""""""""""""""
 "					TEX						"
 """""""""""""""""""""""""""""""""""""""""""""
 augroup tex
-	autocmd FileType tex 	colorscheme desert
-	autocmd FileType tex	set background=light
-	autocmd FileType tex	set tabstop=2
+	autocmd FileType tex		colorscheme desert
+	autocmd FileType tex		set background=light
+	autocmd FileType tex		set tabstop=2
+	autocmd BufWritePost *.tex	call Build_Compile()
 augroup END
+
+function Build_Compile()
+	!latexmk -pdf %
+	!latexmk -c
+endfunction
 
 """""""""""""""""""""""""""""""""""""""""""""
 "					C/C++					"
 """""""""""""""""""""""""""""""""""""""""""""
 	augroup c
-
+	autocmd BufWritePost *.c	!gcc -Wall -ansi %
+	autocmd BufWritePost *.h	!g++ %
 	augroup END

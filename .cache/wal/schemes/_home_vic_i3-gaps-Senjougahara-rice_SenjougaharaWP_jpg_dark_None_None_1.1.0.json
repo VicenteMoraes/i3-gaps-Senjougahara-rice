@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/vic/i3-gaps-Senjougahara-rice/SenjougaharaWP.jpg",
+    "alpha": "260",
+    "special": {
+        "background": "#241d35",
+        "foreground": "#ccdfeb",
+        "cursor": "#ccdfeb"
+    },
+    "colors": {
+        "color0": "#241d35",
+        "color1": "#5990E8",
+        "color2": "#619FE6",
+        "color3": "#67B1F0",
+        "color4": "#8E89B7",
+        "color5": "#A6A0D1",
+        "color6": "#C7B8C1",
+        "color7": "#ccdfeb",
+        "color8": "#8e9ca4",
+        "color9": "#5990E8",
+        "color10": "#619FE6",
+        "color11": "#67B1F0",
+        "color12": "#8E89B7",
+        "color13": "#A6A0D1",
+        "color14": "#C7B8C1",
+        "color15": "#ccdfeb"
+    }
+}
