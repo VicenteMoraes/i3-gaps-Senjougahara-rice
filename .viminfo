@@ -11,35 +11,67 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/python
+~MSle0~/<++>
 
 # Last Substitute Search Pattern:
-~MSle0~&#
+~MSle0&#
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1545992912,,"wq"
+|2,0,1546106926,,"wq"
 :q!
-|2,0,1545992884,,"q!"
+|2,0,1546106848,,"q!"
+:w
+|2,0,1546104266,,"w"
+:YcmDebugInfo
+|2,0,1546103528,,"YcmDebugInfo"
+:verbose set paste?
+|2,0,1546102264,,"verbose set paste?"
+:verbose imap <tab>
+|2,0,1546102241,,"verbose imap <tab>"
+:scriptnames
+|2,0,1546102193,,"scriptnames"
+:help supertab
+|2,0,1546102104,,"help supertab"
+:PlugInstall
+|2,0,1546102025,,"PlugInstall"
+:YcmForceCompileAndDiagnostics
+|2,0,1546100315,,"YcmForceCompileAndDiagnostics"
+:YcmShowDetailedDiagnostics
+|2,0,1546100313,,"YcmShowDetailedDiagnostics"
+:e! $MYVIMRC
+|2,0,1546099968,,"e! $MYVIMRC"
+:YcmGenerateConfig
+|2,0,1546099255,,"YcmGenerateConfig"
+:e $MYVIMRC
+|2,0,1546097598,,"e $MYVIMRC"
+:h complete
+|2,0,1546079904,,"h complete"
+:%
+|2,0,1546023030,,"%"
+:YcmRestartServer
+|2,0,1546022925,,"YcmRestartServer"
+:q
+|2,0,1546011349,,"q"
+:help r
+|2,0,1546011335,,"help r"
+:8,36s/#//
+|2,0,1545993274,,"8,36s/#//"
+:6,38s/#//
+|2,0,1545992991,,"6,38s/#//"
 :8,38s/#//
 |2,0,1545992799,,"8,38s/#//"
-:q
-|2,0,1545992369,,"q"
 :D%
 |2,0,1545992340,,"D%"
 :d%
 |2,0,1545992336,,"d%"
-:w
-|2,0,1545950190,,"w"
 :'
 |2,0,1545949907,,"'"
 :help range
 |2,0,1545939448,,"help range"
-:PlugInstall
-|2,0,1545937118,,"PlugInstall"
 :153s/0/f
 |2,0,1545906511,,"153s/0/f"
 :153s/f/0/g
@@ -64,10 +96,6 @@ $
 |2,0,1545645491,,"1,6s/#/\"/g"
 :%s/*/URxvt/g
 |2,0,1545644427,,"%s/*/URxvt/g"
-:e! $MYVIMRC
-|2,0,1545608202,,"e! $MYVIMRC"
-:e $MYVIMRC
-|2,0,1545608196,,"e $MYVIMRC"
 :help cursorline
 |2,0,1545604476,,"help cursorline"
 :!xrdb ~/.Xresources
@@ -92,38 +120,32 @@ $
 |2,0,1545585158,,"%s/#/\"/1-13"
 :%s/#/"/13
 |2,0,1545585145,,"%s/#/\"/13"
-:%s/#/"/g
-|2,0,1545585130,,"%s/#/\"/g"
-:Q
-|2,0,1545576172,,"Q"
-:jj
-|2,0,1545575990,,"jj"
-:@a
-|2,0,1545575986,,"@a"
-:%s/Mod1/$mod/g
-|2,0,1545573776,,"%s/Mod1/$mod/g"
-:/$mod+f
-|2,0,1545566009,,"/$mod+f"
-:grep /Noto
-|2,0,1545558828,,"grep /Noto"
-:grep /Adobe/
-|2,0,1545558812,,"grep /Adobe/"
-:grep /inconsolata/
-|2,0,1545558790,,"grep /inconsolata/"
-:echo $MYVIMRC
-|2,0,1545552820,,"echo $MYVIMRC"
-:e $MYVIMRC!
-|2,0,1545551780,,"e $MYVIMRC!"
-:.,.+1!
-|2,0,1545551770,,".,.+1!"
-:find background
-|2,0,1545517488,,"find background"
-:e $HOME/.vimrc
-|2,0,1545508041,,"e $HOME/.vimrc"
 
 # Search String History (newest to oldest):
+?/<++>
+|2,1,1546104349,47,"<++>"
+?/cmake
+|2,1,1546099824,47,"cmake"
+?/clang
+|2,1,1546099743,47,"clang"
+?/hi
+|2,1,1546080697,47,"hi"
+?/Fi
+|2,1,1546080661,47,"Fi"
+?/Autocomplete
+|2,1,1546080503,47,"Autocomplete"
+?/li
+|2,1,1546080498,47,"li"
+?/()
+|2,1,1546080463,47,"()"
+?/2li
+|2,1,1546080459,47,"2li"
+?/inoremap
+|2,1,1546080278,47,"inoremap"
 ? #
-|2,1,1545992799,,"#"
+|2,1,1545993274,,"#"
+? \<Your\>
+|2,1,1545993001,,"\\<Your\\>"
 ? @$
 |2,1,1545991833,,"@$"
 ?/python
@@ -138,8 +160,6 @@ $
 |2,1,1545945344,47,"tex"
 ?/date
 |2,1,1545933263,47,"date"
-?/<++>
-|2,1,1545927761,47,"<++>"
 ?/$mod+a
 |2,1,1545925999,47,"$mod+a"
 ?/pt
@@ -202,26 +222,6 @@ $
 |2,1,1545673277,47,"$mod+i"
 ?/$mod+p
 |2,1,1545673218,47,"$mod+p"
-?/$mod+s
-|2,1,1545665350,47,"$mod+s"
-?/$mod+Left
-|2,1,1545664722,47,"$mod+Left"
-?/split h/
-|2,1,1545664709,47,"split h/"
-?/$mod+Shift
-|2,1,1545664645,47,"$mod+Shift"
-?/C
-|2,1,1545664586,47,"C"
-? *
-|2,1,1545644427,,"*"
-?/mod1
-|2,1,1545572300,47,"mod1"
-?/Tab
-|2,1,1545571267,47,"Tab"
-? Mod1
-|2,1,1545573776,,"Mod1"
-?/tab
-|2,1,1545571203,47,"tab"
 
 # Expression History (newest to oldest):
 
@@ -231,652 +231,649 @@ $
 
 # Registers:
 "0	LINE	0
-	function Check_Syntax()
-			!python -m py_compile %
-			!rm -r __pycache__
-	endfunction
-	
-|3,0,0,1,5,0,1545991833,"function Check_Syntax()","		!python -m py_compile %","		!rm -r __pycache__","endfunction",""
-""1	LINE	0
-	
-		modified:   .Xresources
-		new file:   .cache/wal/colors.Xresources
-		new file:   .config/i3/config
-		modified:   .vimrc
-		modified:   README.md
-	
-	Changes not staged for commit:
-	  (use "git add/rm <file>..." to update what will be committed)
-	  (use "git checkout -- <file>..." to discard changes in working directory)
-	
-		modified:   .viminfo
-		deleted:    SenjougaharaWP.jpg
-		deleted:    i3/config
-		deleted:    polybar/config
-		deleted:    ranger/rc.conf
-		deleted:    wal/colors
-		deleted:    wal/colors-kitty.conf
-		deleted:    wal/colors-konsole.colorscheme
-		deleted:    wal/colors-oomox
-		deleted:    wal/colors-putty.reg
-		deleted:    wal/colors-rofi-dark.rasi
-		deleted:    wal/colors-rofi-light.rasi
-		deleted:    wal/colors-sway
-		deleted:    wal/colors-tty.sh
-		deleted:    wal/colors-wal-dwm.h
-		deleted:    wal/colors-wal-st.h
-		deleted:    wal/colors-wal-tabbed.h
-		deleted:    wal/colors-wal.vim
-		deleted:    wal/colors.Xresources
-		deleted:    wal/colors.css
-		deleted:    wal/colors.json
-		deleted:    wal/colors.scss
-		deleted:    wal/colors.sh
-		deleted:    wal/colors.yml
-		deleted:    wal/schemes/_home_vic_Downloads_126336_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_644958_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_816808_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_826848_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_887767_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_monogatari_series___senjougahara_hitagi_by_krukmeister_d9ezuyx-pre_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_senjougahara_vector_art_wallpaper_by_walidsodki_da9p9fa-pre_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Shinobu_Wallpaper_png_dark_None_None_1.1.0.json
-		deleted:    wal/sequences
-		deleted:    wal/wal
-	
-	On branch master
-	Your branch is up to date with 'origin/master'.
-	
-	Changes to be committed:
-|3,1,1,1,50,0,1545992362,"","	modified:   .Xresources","	new file:   .cache/wal/colors.Xresources","	new file:   .config/i3/config","	modified:   .vimrc","	modified:   README.md","","Changes not staged for commit:","  (use \"git add/rm <file>...\" to update what will be committed)","  (use \"git checkout -- <file>...\" to discard changes in working directory)","","	modified:   .viminfo","	deleted:    SenjougaharaWP.jpg","	deleted:    i3/config",>29
-|<"	deleted:    polybar/config","	deleted:    ranger/rc.conf","	deleted:    wal/colors","	deleted:    wal/colors-kitty.conf","	deleted:    wal/colors-konsole.colorscheme","	deleted:    wal/colors-oomox","	deleted:    wal/colors-putty.reg","	deleted:    wal/colors-rofi-dark.rasi","	deleted:    wal/colors-rofi-light.rasi","	deleted:    wal/colors-sway","	deleted:    wal/colors-tty.sh","	deleted:    wal/colors-wal-dwm.h","	deleted:    wal/colors-wal-st.h",>38
-|<"	deleted:    wal/colors-wal-tabbed.h","	deleted:    wal/colors-wal.vim","	deleted:    wal/colors.Xresources","	deleted:    wal/colors.css","	deleted:    wal/colors.json","	deleted:    wal/colors.scss","	deleted:    wal/colors.sh","	deleted:    wal/colors.yml","	deleted:    wal/schemes/_home_vic_Downloads_126336_jpg_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_644958_png_dark_None_None_1.1.0.json",>83
-|<"	deleted:    wal/schemes/_home_vic_Downloads_816808_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_826848_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_887767_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_monogatari_series___senjougahara_hitagi_by_krukmeister_d9ezuyx-pre_jpg_dark_None_None_1.1.0.json",>154
-|<"	deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_senjougahara_vector_art_wallpaper_by_walidsodki_da9p9fa-pre_jpg_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Pictures_Anime_Shinobu_Wallpaper_png_dark_None_None_1.1.0.json","	deleted:    wal/sequences","	deleted:    wal/wal","","On branch master","Your branch is up to date with 'origin/master'.","","Changes to be committed:"
+			\ 'April', 'May', 'June', 'July', 'August', 'September',
+			\ 'October', 'November', 'December'])
+|3,0,0,1,2,0,1546079933,"		\\ 'April', 'May', 'June', 'July', 'August', 'September',","		\\ 'October', 'November', 'December'])"
+"1	LINE	0
+		"set wildmode=longest,list:longest
+			"set wildmenu
+			"imap <Tab>	<C-P>
+|3,0,1,1,3,0,1546104044,"	\"set wildmode=longest,list:longest","		\"set wildmenu","		\"imap <Tab>	<C-P>"
 "2	LINE	0
-	  (use "git reset HEAD <file>..." to unstage)
-|3,0,2,1,1,0,1545992359,"  (use \"git reset HEAD <file>...\" to unstage)"
+	_LARGEFILE64_SOURCE
+|3,0,2,1,1,0,1546103845,"_LARGEFILE64_SOURCE"
 "3	LINE	0
-	Changes to be committed:
-|3,0,3,1,1,0,1545992359,"Changes to be committed:"
+			Plug 'ervandew/supertab'
+|3,0,3,1,1,0,1546102360,"		Plug 'ervandew/supertab'"
 "4	LINE	0
-	On branch master
-	Your branch is up to date with 'origin/master'.
-	
-|3,0,4,1,3,0,1545992353,"On branch master","Your branch is up to date with 'origin/master'.",""
+			Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}	
+|3,0,4,1,1,0,1546102017,"		Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}	"
 "5	LINE	0
-	On branch master
-	Your branch is up to date with 'origin/master'.
-	
-	Changes to be committed:
-	  (use "git reset HEAD <file>..." to unstage)
-	
-		modified:   .Xresources
-		new file:   .cache/wal/colors.Xresources
-		new file:   .config/i3/config
-		modified:   .vimrc
-		modified:   README.md
-	
-	Changes not staged for commit:
-	  (use "git add/rm <file>..." to update what will be committed)
-	  (use "git checkout -- <file>..." to discard changes in working directory)
-	
-		modified:   .viminfo
-		deleted:    SenjougaharaWP.jpg
-		deleted:    i3/config
-		deleted:    polybar/config
-		deleted:    ranger/rc.conf
-		deleted:    wal/colors
-		deleted:    wal/colors-kitty.conf
-		deleted:    wal/colors-konsole.colorscheme
-		deleted:    wal/colors-oomox
-		deleted:    wal/colors-putty.reg
-		deleted:    wal/colors-rofi-dark.rasi
-		deleted:    wal/colors-rofi-light.rasi
-		deleted:    wal/colors-sway
-		deleted:    wal/colors-tty.sh
-		deleted:    wal/colors-wal-dwm.h
-		deleted:    wal/colors-wal-st.h
-		deleted:    wal/colors-wal-tabbed.h
-		deleted:    wal/colors-wal.vim
-		deleted:    wal/colors.Xresources
-		deleted:    wal/colors.css
-		deleted:    wal/colors.json
-		deleted:    wal/colors.scss
-		deleted:    wal/colors.sh
-		deleted:    wal/colors.yml
-		deleted:    wal/schemes/_home_vic_Downloads_126336_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_644958_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_816808_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_826848_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_887767_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_monogatari_series___senjougahara_hitagi_by_krukmeister_d9ezuyx-pre_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_senjougahara_vector_art_wallpaper_by_walidsodki_da9p9fa-pre_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Shinobu_Wallpaper_png_dark_None_None_1.1.0.json
-		deleted:    wal/sequences
-		deleted:    wal/wal
-|3,0,5,1,50,0,1545992171,"On branch master","Your branch is up to date with 'origin/master'.","","Changes to be committed:","  (use \"git reset HEAD <file>...\" to unstage)","","	modified:   .Xresources","	new file:   .cache/wal/colors.Xresources","	new file:   .config/i3/config","	modified:   .vimrc","	modified:   README.md","","Changes not staged for commit:","  (use \"git add/rm <file>...\" to update what will be committed)",>79
-|<"  (use \"git checkout -- <file>...\" to discard changes in working directory)","","	modified:   .viminfo","	deleted:    SenjougaharaWP.jpg","	deleted:    i3/config","	deleted:    polybar/config","	deleted:    ranger/rc.conf","	deleted:    wal/colors","	deleted:    wal/colors-kitty.conf","	deleted:    wal/colors-konsole.colorscheme","	deleted:    wal/colors-oomox","	deleted:    wal/colors-putty.reg","	deleted:    wal/colors-rofi-dark.rasi","	deleted:    wal/colors-rofi-light.rasi",>30
-|<"	deleted:    wal/colors-sway","	deleted:    wal/colors-tty.sh","	deleted:    wal/colors-wal-dwm.h","	deleted:    wal/colors-wal-st.h","	deleted:    wal/colors-wal-tabbed.h","	deleted:    wal/colors-wal.vim","	deleted:    wal/colors.Xresources","	deleted:    wal/colors.css","	deleted:    wal/colors.json","	deleted:    wal/colors.scss","	deleted:    wal/colors.sh","	deleted:    wal/colors.yml","	deleted:    wal/schemes/_home_vic_Downloads_126336_jpg_dark_None_None_1.1.0.json",>83
-|<"	deleted:    wal/schemes/_home_vic_Downloads_644958_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_816808_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_826848_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_887767_png_dark_None_None_1.1.0.json",>161
-|<"	deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_monogatari_series___senjougahara_hitagi_by_krukmeister_d9ezuyx-pre_jpg_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_senjougahara_vector_art_wallpaper_by_walidsodki_da9p9fa-pre_jpg_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Pictures_Anime_Shinobu_Wallpaper_png_dark_None_None_1.1.0.json","	deleted:    wal/sequences","	deleted:    wal/wal"
+	__INT8_TYPE__
+|3,0,5,1,1,0,1546100329,"__INT8_TYPE__"
 "6	LINE	0
-	On branch master
-	Your branch is up to date with 'origin/master'.
+	() ()
 	
-	Changes to be committed:
-	  (use "git reset HEAD <file>..." to unstage)
-	
-		modified:   .Xresources
-	
-	Changes not staged for commit:
-	  (use "git add/rm <file>..." to update what will be committed)
-	  (use "git checkout -- <file>..." to discard changes in working directory)
-	
-		modified:   .viminfo
-		modified:   .vimrc
-		modified:   README.md
-		deleted:    SenjougaharaWP.jpg
-		deleted:    i3/config
-		deleted:    polybar/config
-		deleted:    ranger/rc.conf
-		deleted:    wal/colors
-		deleted:    wal/colors-kitty.conf
-		deleted:    wal/colors-konsole.colorscheme
-		deleted:    wal/colors-oomox
-		deleted:    wal/colors-putty.reg
-		deleted:    wal/colors-rofi-dark.rasi
-		deleted:    wal/colors-rofi-light.rasi
-		deleted:    wal/colors-sway
-		deleted:    wal/colors-tty.sh
-		deleted:    wal/colors-wal-dwm.h
-		deleted:    wal/colors-wal-st.h
-		deleted:    wal/colors-wal-tabbed.h
-		deleted:    wal/colors-wal.vim
-		deleted:    wal/colors.Xresources
-		deleted:    wal/colors.css
-		deleted:    wal/colors.json
-		deleted:    wal/colors.scss
-		deleted:    wal/colors.sh
-		deleted:    wal/colors.yml
-		deleted:    wal/schemes/_home_vic_Downloads_126336_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_644958_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_816808_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_826848_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Downloads_887767_png_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_monogatari_series___senjougahara_hitagi_by_krukmeister_d9ezuyx-pre_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_senjougahara_vector_art_wallpaper_by_walidsodki_da9p9fa-pre_jpg_dark_None_None_1.1.0.json
-		deleted:    wal/schemes/_home_vic_Pictures_Anime_Shinobu_Wallpaper_png_dark_None_None_1.1.0.json
-		deleted:    wal/sequences
-		deleted:    wal/wal
-	
-|3,0,6,1,49,0,1545992136,"On branch master","Your branch is up to date with 'origin/master'.","","Changes to be committed:","  (use \"git reset HEAD <file>...\" to unstage)","","	modified:   .Xresources","","Changes not staged for commit:","  (use \"git add/rm <file>...\" to update what will be committed)","  (use \"git checkout -- <file>...\" to discard changes in working directory)","","	modified:   .viminfo","	modified:   .vimrc","	modified:   README.md",>33
-|<"	deleted:    SenjougaharaWP.jpg","	deleted:    i3/config","	deleted:    polybar/config","	deleted:    ranger/rc.conf","	deleted:    wal/colors","	deleted:    wal/colors-kitty.conf","	deleted:    wal/colors-konsole.colorscheme","	deleted:    wal/colors-oomox","	deleted:    wal/colors-putty.reg","	deleted:    wal/colors-rofi-dark.rasi","	deleted:    wal/colors-rofi-light.rasi","	deleted:    wal/colors-sway","	deleted:    wal/colors-tty.sh","	deleted:    wal/colors-wal-dwm.h",>34
-|<"	deleted:    wal/colors-wal-st.h","	deleted:    wal/colors-wal-tabbed.h","	deleted:    wal/colors-wal.vim","	deleted:    wal/colors.Xresources","	deleted:    wal/colors.css","	deleted:    wal/colors.json","	deleted:    wal/colors.scss","	deleted:    wal/colors.sh","	deleted:    wal/colors.yml","	deleted:    wal/schemes/_home_vic_Downloads_126336_jpg_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_644958_png_dark_None_None_1.1.0.json",>83
-|<"	deleted:    wal/schemes/_home_vic_Downloads_816808_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_826848_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Downloads_887767_png_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_monogatari_series___senjougahara_hitagi_by_krukmeister_d9ezuyx-pre_jpg_dark_None_None_1.1.0.json",>154
-|<"	deleted:    wal/schemes/_home_vic_Pictures_Anime_Senjougahara_senjougahara_vector_art_wallpaper_by_walidsodki_da9p9fa-pre_jpg_dark_None_None_1.1.0.json","	deleted:    wal/schemes/_home_vic_Pictures_Anime_Shinobu_Wallpaper_png_dark_None_None_1.1.0.json","	deleted:    wal/sequences","	deleted:    wal/wal",""
+|3,0,6,1,2,0,1546080348,"() ()",""
 "7	LINE	0
-	function Check_Syntax()
-			!python -m py_compile %
-			!rm -r __pycache__
-	endfunction
-	
-|3,0,7,1,5,0,1545949979,"function Check_Syntax()","		!python -m py_compile %","		!rm -r __pycache__","endfunction",""
+		  Plug 'Valloric/YouCompleteMe'
+|3,0,7,1,1,0,1546039754,"	  Plug 'Valloric/YouCompleteMe'"
 "8	LINE	0
-	function Check_Syntax()
-			!python -m py_compile %
-			!rm -r __pycache__
-	endfunction
-	"""""""""""""""""""""""""""""""""""""""""""""
-	"					TEX						"
-	"""""""""""""""""""""""""""""""""""""""""""""
-	augroup tex
-		autocmd FileType tex		colorscheme desert
-		autocmd FileType tex		set background=light
-		autocmd FileType tex		set tabstop=2
-		autocmd BufWritePost *.tex	call Build_Compile()
-	augroup END
-	
-|3,0,8,1,14,0,1545949971,"function Check_Syntax()","		!python -m py_compile %","		!rm -r __pycache__","endfunction","\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"","\"					TEX						\"","\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"","augroup tex","	autocmd FileType tex		colorscheme desert","	autocmd FileType tex		set background=light",>38
-|<"	autocmd FileType tex		set tabstop=2","	autocmd BufWritePost *.tex	call Build_Compile()","augroup END",""
+	except callable
+|3,0,8,1,1,0,1546038551,"except callable"
 "9	LINE	0
-		autocmd FileType	c		se
-|3,0,9,1,1,0,1545948467,"	autocmd FileType	c		se"
+	print join(sum
+|3,0,9,1,1,0,1546038477,"print join(sum"
 "a	CHAR	0
 	i	j0
 |3,0,10,0,1,0,1545645768,"i	j0"
-"-	CHAR	0
-	n
-|3,0,36,0,1,0,1545949636,"n"
+""-	CHAR	0
+	#
+|3,1,36,0,1,0,1546106923,"#"
 
 # File marks:
-'0  51  0  ~/keep
-|4,48,51,0,1545992912,"~/keep"
-'1  74  0  ~/.git/COMMIT_EDITMSG
-|4,49,74,0,1545992816,"~/.git/COMMIT_EDITMSG"
-'2  1  0  ~/keep
-|4,50,1,0,1545992540,"~/keep"
-'3  1  0  ~/keep
-|4,51,1,0,1545992540,"~/keep"
-'4  1  0  ~/keep
-|4,52,1,0,1545992370,"~/keep"
-'5  1  0  ~/keep
-|4,53,1,0,1545992370,"~/keep"
-'6  1  0  ~/keep
-|4,54,1,0,1545992206,"~/keep"
-'7  1  0  ~/keep
-|4,55,1,0,1545992206,"~/keep"
-'8  1  0  ~/keep
-|4,56,1,0,1545992206,"~/keep"
-'9  1  0  ~/keep
-|4,57,1,0,1545992206,"~/keep"
+'0  9  0  ~/.git/COMMIT_EDITMSG
+|4,48,9,0,1546106926,"~/.git/COMMIT_EDITMSG"
+'1  1  0  ~/.git/COMMIT_EDITMSG
+|4,49,1,0,1546106848,"~/.git/COMMIT_EDITMSG"
+'2  1  0  ~/.git/COMMIT_EDITMSG
+|4,50,1,0,1546106848,"~/.git/COMMIT_EDITMSG"
+'3  3  10  ~/dunk.c
+|4,51,3,10,1546104376,"~/dunk.c"
+'4  95  50  ~/.vimrc
+|4,52,95,50,1546104342,"~/.vimrc"
+'5  4  5  ~/Templates/C/basic.c
+|4,53,4,5,1546104272,"~/Templates/C/basic.c"
+'6  4  5  ~/Templates/C/basic.c
+|4,54,4,5,1546104272,"~/Templates/C/basic.c"
+'7  100  0  ~/.ycm_extra_conf.py
+|4,55,100,0,1546104162,"~/.ycm_extra_conf.py"
+'8  118  0  ~/my_secret_ycm.py
+|4,56,118,0,1546104094,"~/my_secret_ycm.py"
+'9  5  0  ~/.vimrc
+|4,57,5,0,1546104055,"~/.vimrc"
 
 # Jumplist (newest first):
--'  51  0  ~/keep
-|4,39,51,0,1545992912,"~/keep"
--'  9  0  ~/keep
-|4,39,9,0,1545992885,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545992849,"~/keep"
--'  74  0  ~/.git/COMMIT_EDITMSG
-|4,39,74,0,1545992816,"~/.git/COMMIT_EDITMSG"
--'  74  0  ~/.git/COMMIT_EDITMSG
-|4,39,74,0,1545992816,"~/.git/COMMIT_EDITMSG"
--'  41  0  ~/.git/COMMIT_EDITMSG
-|4,39,41,0,1545992804,"~/.git/COMMIT_EDITMSG"
--'  41  0  ~/.git/COMMIT_EDITMSG
-|4,39,41,0,1545992804,"~/.git/COMMIT_EDITMSG"
--'  8  0  ~/.git/COMMIT_EDITMSG
-|4,39,8,0,1545992799,"~/.git/COMMIT_EDITMSG"
--'  8  0  ~/.git/COMMIT_EDITMSG
-|4,39,8,0,1545992799,"~/.git/COMMIT_EDITMSG"
+-'  9  0  ~/.git/COMMIT_EDITMSG
+|4,39,9,0,1546106926,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1545992758,"~/.git/COMMIT_EDITMSG"
+|4,39,1,0,1546106920,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1545992758,"~/.git/COMMIT_EDITMSG"
--'  1  0  ~/keep
-|4,39,1,0,1545992540,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545992540,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545992370,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545992370,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545992206,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545992206,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545992174,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545992174,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545991994,"~/keep"
--'  1  0  ~/keep
-|4,39,1,0,1545991994,"~/keep"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
--'  50  0  ~/thing
-|4,39,50,0,1545991974,"~/thing"
+|4,39,1,0,1546106848,"~/.git/COMMIT_EDITMSG"
+-'  3  10  ~/dunk.c
+|4,39,3,10,1546104376,"~/dunk.c"
+-'  3  10  ~/dunk.c
+|4,39,3,10,1546104376,"~/dunk.c"
+-'  3  10  ~/dunk.c
+|4,39,3,10,1546104376,"~/dunk.c"
+-'  3  10  ~/dunk.c
+|4,39,3,10,1546104376,"~/dunk.c"
+-'  1  0  ~/dunk.c
+|4,39,1,0,1546104349,"~/dunk.c"
+-'  1  0  ~/dunk.c
+|4,39,1,0,1546104349,"~/dunk.c"
+-'  1  0  ~/dunk.c
+|4,39,1,0,1546104349,"~/dunk.c"
+-'  1  0  ~/dunk.c
+|4,39,1,0,1546104349,"~/dunk.c"
+-'  95  50  ~/.vimrc
+|4,39,95,50,1546104342,"~/.vimrc"
+-'  95  50  ~/.vimrc
+|4,39,95,50,1546104342,"~/.vimrc"
+-'  95  50  ~/.vimrc
+|4,39,95,50,1546104342,"~/.vimrc"
+-'  95  50  ~/.vimrc
+|4,39,95,50,1546104342,"~/.vimrc"
+-'  95  50  ~/.vimrc
+|4,39,95,50,1546104342,"~/.vimrc"
+-'  95  50  ~/.vimrc
+|4,39,95,50,1546104342,"~/.vimrc"
+-'  95  50  ~/.vimrc
+|4,39,95,50,1546104342,"~/.vimrc"
+-'  95  50  ~/.vimrc
+|4,39,95,50,1546104342,"~/.vimrc"
+-'  4  5  ~/Templates/C/basic.c
+|4,39,4,5,1546104272,"~/Templates/C/basic.c"
+-'  4  5  ~/Templates/C/basic.c
+|4,39,4,5,1546104272,"~/Templates/C/basic.c"
+-'  4  5  ~/Templates/C/basic.c
+|4,39,4,5,1546104272,"~/Templates/C/basic.c"
+-'  4  5  ~/Templates/C/basic.c
+|4,39,4,5,1546104272,"~/Templates/C/basic.c"
+-'  4  5  ~/Templates/C/basic.c
+|4,39,4,5,1546104272,"~/Templates/C/basic.c"
+-'  4  5  ~/Templates/C/basic.c
+|4,39,4,5,1546104272,"~/Templates/C/basic.c"
+-'  4  5  ~/Templates/C/basic.c
+|4,39,4,5,1546104272,"~/Templates/C/basic.c"
+-'  4  5  ~/Templates/C/basic.c
+|4,39,4,5,1546104272,"~/Templates/C/basic.c"
+-'  1  0  ~/Templates/C/basic.c
+|4,39,1,0,1546104224,"~/Templates/C/basic.c"
+-'  1  0  ~/Templates/C/basic.c
+|4,39,1,0,1546104224,"~/Templates/C/basic.c"
+-'  1  0  ~/Templates/C/basic.c
+|4,39,1,0,1546104224,"~/Templates/C/basic.c"
+-'  1  0  ~/Templates/C/basic.c
+|4,39,1,0,1546104224,"~/Templates/C/basic.c"
+-'  1  0  ~/Templates/C/basic.c
+|4,39,1,0,1546104224,"~/Templates/C/basic.c"
+-'  1  0  ~/Templates/C/basic.c
+|4,39,1,0,1546104224,"~/Templates/C/basic.c"
+-'  1  0  ~/Templates/C/basic.c
+|4,39,1,0,1546104224,"~/Templates/C/basic.c"
+-'  1  0  ~/Templates/C/basic.c
+|4,39,1,0,1546104224,"~/Templates/C/basic.c"
+-'  32  0  ~/.vimrc
+|4,39,32,0,1546104191,"~/.vimrc"
+-'  32  0  ~/.vimrc
+|4,39,32,0,1546104191,"~/.vimrc"
+-'  32  0  ~/.vimrc
+|4,39,32,0,1546104191,"~/.vimrc"
+-'  32  0  ~/.vimrc
+|4,39,32,0,1546104191,"~/.vimrc"
+-'  32  0  ~/.vimrc
+|4,39,32,0,1546104191,"~/.vimrc"
+-'  32  0  ~/.vimrc
+|4,39,32,0,1546104191,"~/.vimrc"
+-'  32  0  ~/.vimrc
+|4,39,32,0,1546104191,"~/.vimrc"
+-'  32  0  ~/.vimrc
+|4,39,32,0,1546104191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1546104174,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1546104174,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1546104174,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1546104174,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1546104174,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1546104174,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1546104174,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1546104174,"~/.vimrc"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  100  0  ~/.ycm_extra_conf.py
+|4,39,100,0,1546104162,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  1  0  ~/.ycm_extra_conf.py
+|4,39,1,0,1546104100,"~/.ycm_extra_conf.py"
+-'  118  0  ~/my_secret_ycm.py
+|4,39,118,0,1546104094,"~/my_secret_ycm.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/keep
-	*	1545992891	0
-	"	51	0
-	.	1	0
-	+	1	0
-
 > ~/.git/COMMIT_EDITMSG
-	*	1545992804	0
-	"	74	0
-	.	8	0
+	*	1546106923	0
+	"	9	0
+	^	27	0
+	.	9	0
 	+	8	0
+	+	6	0
+	+	9	0
+	+	8	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	8	0
+	+	9	0
 
-> ~/thing
-	*	1545991971	0
-	"	50	0
-
-> ~/.gitignore
-	*	1545991933	0
-	"	1	0
-	^	1	2
-	.	1	1
-	+	1	1
+> ~/dunk.c
+	*	1546104373	0
+	"	3	10
+	^	3	11
+	.	4	16
+	+	1	0
+	+	4	16
 
 > ~/.vimrc
-	*	1545950190	0
-	"	62	0
-	^	62	0
-	.	61	0
-	+	23	0
-	+	32	0
-	+	34	22
-	+	31	54
-	+	23	0
-	+	72	11
-	+	76	0
-	+	72	42
-	+	23	20
-	+	40	5
-	+	21	0
-	+	23	44
-	+	24	0
-	+	23	20
-	+	72	41
-	+	23	1
-	+	23	0
-	+	23	19
-	+	72	41
-	+	15	13
-	+	52	13
+	*	1546104339	0
+	"	95	50
+	^	95	51
+	.	95	50
+	+	87	0
+	+	84	0
+	+	82	0
+	+	87	0
+	+	82	55
+	+	10	1
+	+	10	6
+	+	47	0
 	+	10	0
-	+	4	29
-	+	10	0
-	+	1	0
-	+	2	13
-	+	83	11
-	+	79	0
-	+	15	0
-	+	18	14
-	+	15	0
-	+	16	0
+	+	9	2
+	+	10	32
 	+	17	0
-	+	18	0
-	+	4	0
-	+	23	1
-	+	23	3
-	+	23	0
-	+	24	0
-	+	23	0
-	+	4	33
-	+	6	7
-	+	5	26
-	+	6	6
-	+	4	32
-	+	8	16
-	+	4	32
-	+	23	0
-	+	22	1
-	+	22	0
-	+	22	19
-	+	83	0
-	+	6	47
-	+	45	0
-	+	72	34
-	+	22	0
-	+	31	48
-	+	46	18
-	+	46	21
-	+	46	18
-	+	14	3
-	+	13	0
-	+	46	0
-	+	72	28
-	+	72	26
-	+	72	25
-	+	72	0
-	+	7	0
-	+	6	36
-	+	72	38
-	+	81	44
-	+	82	31
-	+	72	28
-	+	72	0
-	+	72	25
-	+	72	26
-	+	75	10
-	+	74	23
-	+	72	47
-	+	73	13
-	+	74	11
-	+	15	0
-	+	83	1
-	+	83	3
-	+	83	22
-	+	52	0
-	+	83	0
-	+	52	0
-	+	54	3
-	+	51	3
-	+	54	50
-	+	72	0
-	+	72	17
-	+	72	10
-	+	54	46
+	+	16	0
+	+	30	0
+	+	29	14
+	+	31	0
+	+	30	34
+	+	16	0
+	+	9	2
+	+	10	0
+	+	16	0
+	+	31	17
+	+	62	0
+	+	53	0
+	+	31	12
+	+	53	4
+	+	53	14
+	+	53	2
+	+	33	0
+	+	4	28
+	+	14	28
+	+	33	26
+	+	43	27
+	+	63	26
+	+	79	26
+	+	95	27
+	+	31	0
+	+	31	2
+	+	53	9
+	+	62	0
+	+	53	13
+	+	47	13
+	+	50	13
+	+	53	21
+	+	62	0
+	+	53	26
+	+	62	0
+	+	62	1
+	+	62	0
 	+	61	0
+	+	53	74
+	+	60	2
+	+	54	0
+	+	53	20
+	+	1	4
+	+	53	27
+	+	29	6
+	+	54	0
+	+	53	26
+	+	54	0
+	+	53	26
+	+	54	0
+	+	53	21
+	+	54	0
+	+	2	0
+	+	1	0
+	+	53	26
+	+	1	0
+	+	55	0
+	+	52	9
+	+	54	26
+	+	58	0
+	+	31	10
+	+	24	0
+	+	31	0
+	+	31	13
+	+	1	0
+	+	9	3
+	+	11	0
+	+	30	3
+	+	31	3
+	+	10	0
+	+	30	3
+	+	31	3
+	+	9	3
+	+	10	29
+	+	31	0
+	+	30	58
+	+	11	0
+	+	11	2
+	+	1	0
+	+	11	0
+	+	11	24
+	+	11	0
+	+	1	0
+	+	11	0
+	+	31	0
+	+	96	0
+	+	95	51
+	+	95	50
+
+> ~/Templates/C/basic.c
+	*	1546104269	0
+	"	4	5
+	^	4	6
+	.	4	5
+	+	3	11
+	+	4	0
+	+	5	10
+	+	4	5
+
+> ~/.ycm_extra_conf.py
+	*	1546104153	0
+	"	100	0
+	^	100	0
+	.	99	3
+	+	205	0
+	+	99	3
+
+> ~/my_secret_ycm.py
+	*	1546104092	0
+	"	118	0
+
+> ~/test.c
+	*	1546103845	0
+	"	5	2
+	.	5	0
+	+	1	7
+	+	1	3
+	+	1	10
+	+	3	11
+	+	4	0
+	+	4	31
+	+	4	3
+	+	4	21
+	+	4	0
+	+	5	0
+	+	4	21
+	+	5	0
+	+	2	0
+	+	5	0
+
+> ~/.vim/plugged/supertab/doc/supertab.txt
+	*	1546102158	0
+	"	133	0
+
+> ~/.vim/plugged/YCM-Generator/.vimrc
+	*	1546099947	0
+	"	1	0
+
+> ~/thing
+	*	1546099825	0
+	"	302	0
+
+> ~/.vim/plugged/YCM-Generator/README.md
+	*	1546099536	0
+	"	37	0
+
+> /usr/share/vim/vim81/doc/eval.txt
+	*	1546080034	0
+	"	3352	34
 
 > ~/test.py
-	*	1545950022	0
-	"	1	10
-	^	1	11
-	.	1	10
+	*	1546077040	0
+	"	1	0
+	^	1	0
+	.	2	0
 	+	1	6
 	+	1	35
 	+	1	0
 	+	1	17
-	+	4	14
-	+	4	0
+	+	1	16
+	+	1	2
 	+	1	17
-	+	4	0
-	+	5	0
-	+	1	10
+	+	1	2
+	+	1	3
+	+	1	2
+	+	1	4
+	+	1	0
+	+	1	16
+	+	1	0
+	+	2	0
 
-> ~/tools/test.tex
-	*	1545948160	0
-	"	1	0
+> /tmp/mozilla_vic0/cfe-7.0.1.src.tar.xz.sig
+	*	1546030034	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
 
-> ~/tools/buildlatex
-	*	1545947437	0
-	"	4	9
-	^	4	10
-	.	4	10
-	+	1	9
-	+	4	12
-	+	3	9
-	+	4	27
-	+	3	11
-	+	4	38
-	+	4	10
-
-> ~/tex_compile
-	*	1545946349	0
-	"	5	0
-	^	5	0
-	.	4	24
-	+	1	9
+> ~/.config/zathura/zathurarc
+	*	1546028992	0
+	"	2	24
+	^	2	25
+	.	3	0
+	+	1	24
+	+	2	0
+	+	2	14
 	+	3	0
-	+	4	24
+
+> ~/Templates/Tex/basic.tex
+	*	1546021634	0
+	"	11	17
+	^	11	18
+	.	12	0
+	+	11	18
+	+	9	4
+	+	11	31
+	+	7	0
+	+	5	25
+	+	6	39
+	+	5	36
+	+	10	0
+	+	11	18
+	+	10	0
+	+	12	0
+
+> ~/tester.tex
+	*	1546020318	0
+	"	5	36
+	^	5	37
+	.	5	36
+	+	1	0
+	+	9	18
+	+	11	18
+	+	5	36
+
+> ~/Templates/Tex/uni.bib
+	*	1546015050	0
+	"	5	29
+	^	5	31
+	.	5	29
+	+	1	0
+	+	3	12
+	+	2	13
+	+	3	10
+	+	2	10
+	+	3	29
+	+	4	13
+	+	1	12
+	+	5	29
+	+	2	47
+	+	6	0
+	+	2	49
+	+	3	29
+	+	4	15
+	+	5	29
 
 > ~/test.tex
-	*	1545945340	0
-	"	1	0
-	^	7	14
-	.	7	13
-	+	1	7
-	+	1	14
-	+	1	23
-	+	5	13
-	+	1	23
-	+	7	13
+	*	1546014613	0
+	"	2	0
+	^	1	22
+	.	1	21
+	+	17	7
+	+	17	14
+	+	17	23
+	+	21	13
+	+	17	23
+	+	23	13
+	+	9	0
+	+	15	0
+	+	1	21
 
-> /usr/share/vim/vim81/doc/cmdline.txt
-	*	1545939474	0
-	"	712	37
+> ~/Templates/Tex/abnt.tex
+	*	1546013288	0
+	"	2	0
+	^	1	23
+	.	1	23
+	+	1	25
+	+	1	23
+
+> /usr/share/vim/vim81/doc/change.txt
+	*	1546011335	0
+	"	271	7
+
+> /etc/systemd/system/betterlockscreen@.service
+	*	1546001182	0
+	"	13	22
+	^	13	23
+	.	13	22
+	+	13	22
+
+> ~/dunkman
+	*	1546000995	0
+	"	128	0
+
+> ~/.cache/wal/colors.Xresources
+	*	1545999741	0
+	"	18	31
+	^	18	32
+	.	18	31
+	+	13	29
+	+	14	22
+	+	11	0
+	+	32	1
+	+	33	1
+	+	32	17
+	+	32	7
+	+	32	10
+	+	32	9
+	+	32	13
+	+	32	0
+	+	33	0
+	+	32	0
+	+	33	0
+	+	11	1
+	+	3	1
+	+	4	18
+	+	10	21
+	+	38	1
+	+	42	1
+	+	39	13
+	+	57	0
+	+	61	1
+	+	57	15
+	+	57	11
+	+	4	15
+	+	10	18
+	+	38	10
+	+	39	9
+	+	57	16
+	+	58	0
+	+	57	17
+	+	58	17
+	+	12	22
+	+	18	1
+	+	19	23
+	+	12	1
+	+	13	30
+	+	18	31
+	+	13	20
+	+	18	21
+	+	13	21
+	+	18	21
+	+	12	0
+	+	13	0
+	+	18	31
 
 > ~/.config/i3/config
-	*	1545937144	0
-	"	114	0
-	^	128	1
-	.	128	0
-	+	25	0
-	+	25	3
-	+	149	3
-	+	150	3
-	+	151	3
-	+	152	3
-	+	153	3
-	+	154	3
+	*	1545999087	0
+	"	33	16
+	^	33	18
+	.	32	12
 	+	155	3
 	+	156	3
 	+	157	3
 	+	158	3
-	+	161	3
-	+	162	3
+	+	159	3
+	+	160	3
 	+	163	3
 	+	164	3
 	+	165	3
@@ -885,52 +882,54 @@ $
 	+	168	3
 	+	169	3
 	+	170	3
-	+	173	3
+	+	171	3
+	+	172	3
 	+	175	3
 	+	177	3
-	+	209	0
-	+	113	0
-	+	177	18
+	+	179	3
+	+	211	0
+	+	115	0
+	+	179	18
 	+	21	14
-	+	102	0
+	+	104	0
 	+	21	14
-	+	102	19
-	+	105	19
-	+	102	10
-	+	105	10
+	+	104	19
+	+	107	19
+	+	104	10
+	+	107	10
 	+	14	20
-	+	64	14
-	+	65	18
+	+	66	14
+	+	67	18
+	+	49	3
 	+	47	3
+	+	46	3
 	+	45	3
 	+	44	3
 	+	43	3
 	+	42	3
-	+	41	3
-	+	40	3
-	+	48	0
-	+	65	24
+	+	50	0
+	+	67	24
 	+	14	21
 	+	14	0
 	+	20	13
 	+	19	11
 	+	21	13
 	+	22	14
-	+	58	13
-	+	69	13
-	+	215	14
-	+	69	37
-	+	215	16
+	+	60	13
+	+	71	13
+	+	217	14
+	+	71	37
+	+	217	16
 	+	29	13
-	+	58	13
+	+	60	13
 	+	30	19
 	+	30	20
 	+	32	1
-	+	33	3
+	+	35	3
 	+	30	0
-	+	223	0
-	+	224	0
 	+	225	0
+	+	226	0
+	+	227	0
 	+	14	12
 	+	14	0
 	+	14	11
@@ -941,66 +940,38 @@ $
 	+	14	0
 	+	14	24
 	+	26	0
+	+	50	1
 	+	48	1
+	+	47	1
 	+	46	1
 	+	45	1
 	+	44	1
-	+	43	1
-	+	42	1
 	+	32	0
+	+	50	1
 	+	48	1
+	+	47	1
 	+	46	1
 	+	45	1
 	+	44	1
-	+	43	1
-	+	42	1
 	+	14	0
 	+	11	1
 	+	11	0
 	+	14	0
 	+	12	5
-	+	71	13
-	+	72	14
-	+	72	0
-	+	128	0
-
-> ~/.config/polybar/config
-	*	1545933263	0
-	"	264	8
-	^	153	26
-	.	153	26
-	+	30	8
-	+	32	10
-	+	33	10
-	+	56	25
-	+	58	24
-	+	57	42
-	+	56	25
-	+	58	24
-	+	33	10
-	+	39	34
-	+	40	0
-	+	39	0
-	+	40	17
-	+	41	0
-	+	42	32
-	+	33	9
-	+	56	0
-	+	58	0
-	+	106	11
-	+	56	13
-	+	228	16
-	+	250	0
-	+	251	15
-	+	276	25
-	+	152	0
-	+	153	0
-	+	154	0
-	+	153	26
+	+	73	13
+	+	74	14
+	+	74	0
+	+	130	0
+	+	11	0
+	+	32	17
+	+	33	23
+	+	32	17
+	+	33	16
+	+	32	12
 
 > ~/.Xresources
-	*	1545922856	0
-	"	58	13
+	*	1545998638	0
+	"	1	0
 	^	58	14
 	.	58	13
 	+	3	28
@@ -1104,6 +1075,83 @@ $
 	+	72	25
 	+	58	13
 
+> ~/keep
+	*	1545992958	0
+	"	89	3
+	.	1	0
+	+	1	0
+
+> ~/.gitignore
+	*	1545991933	0
+	"	1	0
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/tools/test.tex
+	*	1545948160	0
+	"	1	0
+
+> ~/tools/buildlatex
+	*	1545947437	0
+	"	4	9
+	^	4	10
+	.	4	10
+	+	1	9
+	+	4	12
+	+	3	9
+	+	4	27
+	+	3	11
+	+	4	38
+	+	4	10
+
+> ~/tex_compile
+	*	1545946349	0
+	"	5	0
+	^	5	0
+	.	4	24
+	+	1	9
+	+	3	0
+	+	4	24
+
+> /usr/share/vim/vim81/doc/cmdline.txt
+	*	1545939474	0
+	"	712	37
+
+> ~/.config/polybar/config
+	*	1545933263	0
+	"	264	8
+	^	153	26
+	.	153	26
+	+	30	8
+	+	32	10
+	+	33	10
+	+	56	25
+	+	58	24
+	+	57	42
+	+	56	25
+	+	58	24
+	+	33	10
+	+	39	34
+	+	40	0
+	+	39	0
+	+	40	17
+	+	41	0
+	+	42	32
+	+	33	9
+	+	56	0
+	+	58	0
+	+	106	11
+	+	56	13
+	+	228	16
+	+	250	0
+	+	251	15
+	+	276	25
+	+	152	0
+	+	153	0
+	+	154	0
+	+	153	26
+
 > ~/.profile
 	*	1545920626	0
 	"	2	0
@@ -1162,45 +1210,6 @@ $
 > ~/dunkey
 	*	1545826768	0
 	"	15	0
-
-> ~/.cache/wal/colors.Xresources
-	*	1545773542	0
-	"	1	10
-	^	57	18
-	.	57	17
-	+	13	29
-	+	14	22
-	+	11	0
-	+	31	1
-	+	32	1
-	+	31	17
-	+	31	7
-	+	31	10
-	+	31	9
-	+	31	13
-	+	31	0
-	+	32	0
-	+	31	0
-	+	32	0
-	+	11	1
-	+	3	1
-	+	4	18
-	+	10	21
-	+	37	1
-	+	41	1
-	+	38	13
-	+	56	0
-	+	60	1
-	+	56	15
-	+	56	11
-	+	4	15
-	+	10	18
-	+	37	10
-	+	38	9
-	+	56	16
-	+	57	0
-	+	56	17
-	+	57	17
 
 > ~/.bashrc
 	*	1545766712	0

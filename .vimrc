@@ -1,14 +1,17 @@
+
+
 """""""""""""""""""""""""""""""""""""""""""""
-"				PLUGINS						"
+"				PLUGINS															"
 """""""""""""""""""""""""""""""""""""""""""""
 	call plug#begin('~/.vim/plugged')
 		Plug 'dylanaraps/wal.vim'	
 		Plug 'PotatoesMaster/i3-vim-syntax'
-		Plug 'davidhalter/jedi-vim', {'for': 'python'}
-	call plug#end()
+		"Plug 'davidhalter/jedi-vim', {'for': 'python'}
+		Plug 'Valloric/YouCompleteMe'
+call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""
-"				SETTINGS					"
+"				SETTINGS														"
 """""""""""""""""""""""""""""""""""""""""""""
 
 	filetype plugin on
@@ -23,28 +26,38 @@
 	" Disables automatic commenting on newline:
 	autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
+	"Autocomplete
+		let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py' 
+
 """""""""""""""""""""""""""""""""""""""""""""
-"					QOL						"
+"					QOL																"
 """""""""""""""""""""""""""""""""""""""""""""
 
 "Run xrdb when .Xresources or .Xdefaults are updated
-	autocmd BufWritePost ~/.Xresources !xrdb -merge .Xresources
+		autocmd BufWritePost ~/.Xresources !xrdb -merge .Xresources
 
 "Restart i3 when i3 config is updated
-	autocmd BufWritePost .config/i3/config !i3-msg restart
+		autocmd BufWritePost .config/i3/config !i3-msg restart
 
 """""""""""""""""""""""""""""""""""""""""""""
-"				MACROS						"
+"				MACROS															"
 """""""""""""""""""""""""""""""""""""""""""""
 
 "Goto 
-	inoremap	<Space><Space>		<Esc>/<++><Enter>"_c4l
+		inoremap		<Space><Space>		<Esc>/<++><Enter>"_c4l
 	
 "Sets macro
-	inoremap	;c					#############################################<Enter>#<Tab><Tab><Tab><Tab><Tab><++><Tab><Tab><Tab><Tab><Tab>#<Enter>#############################################<Enter><Tab><++><Esc>3k0i
+		inoremap		;c					#############################################<Enter>#<Tab><Tab><Tab><Tab><Tab><++><Tab><Tab><Tab><Tab><Tab>#<Enter>#############################################<Enter><Tab><++><Esc>3k0i
+
+"Autoclose
+		inoremap		(						()<Esc>i
+		inoremap		"						""<Esc>i
+		inoremap		'						''<Esc>i
+		inoremap		{						{}<Esc>i
+		inoremap		[						[]<Esc>i
 
 """""""""""""""""""""""""""""""""""""""""""""
-"					PYTHON					"
+"					PYTHON														"
 """""""""""""""""""""""""""""""""""""""""""""
 augroup python 	
 "List Comprehension
@@ -60,24 +73,26 @@ function Check_Syntax()
 endfunction
 
 """""""""""""""""""""""""""""""""""""""""""""
-"					TEX						"
+"					TEX																"
 """""""""""""""""""""""""""""""""""""""""""""
 augroup tex
-	autocmd FileType tex		colorscheme desert
-	autocmd FileType tex		set background=light
-	autocmd FileType tex		set tabstop=2
-	autocmd BufWritePost *.tex	call Build_Compile()
+		autocmd BufNewFile	 *.tex	0r ~/Templates/Tex/basic.tex
+		autocmd BufWritePost *.tex	call Build_Compile()
+		autocmd FileType tex		colorscheme desert
+		autocmd FileType tex		set background=light
+		autocmd FileType tex		set tabstop=2
 augroup END
 
 function Build_Compile()
-	!latexmk -pdf %
-	!latexmk -c
+		!latexmk -pdf %
+		!latexmk -c
 endfunction
 
 """""""""""""""""""""""""""""""""""""""""""""
-"					C/C++					"
+"					C/C++															"
 """""""""""""""""""""""""""""""""""""""""""""
-	augroup c
-	autocmd BufWritePost *.c	!gcc -Wall -ansi %
-	autocmd BufWritePost *.h	!g++ %
-	augroup END
+augroup c
+		autocmd BufNewFile	 *.c  0r ~/Templates/C/basic.c
+		autocmd BufWritePost *.c	!gcc -Wall -ansi %
+		autocmd BufWritePost *.h	!g++ %
+augroup END

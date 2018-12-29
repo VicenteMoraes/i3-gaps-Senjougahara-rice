@@ -8,7 +8,7 @@
 	#Makes mouse invisible
 	exec unclutter 
 	exec wal -R
-	exec_always compton
+	exec_always compton -G
 	exec polybar main
 	exec betterlockscreen -l dimblur
 
@@ -29,6 +29,8 @@
 	#Gap Settings
 	hide_edge_borders	both
 	for_window [class="^.*"] border pixel 0
+  new_window	none
+  default_border	pixel 0
 	
 	gaps inner	15
 	gaps outer 15
