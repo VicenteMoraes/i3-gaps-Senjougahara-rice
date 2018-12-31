@@ -20,7 +20,7 @@
 	set $down 		j
 	set $left 		h
 	set $right 		l
-	set $term 		urxvt
+	set $term 		urxvt -bg [260]#241d35
 	set $browser	firefox
 
 # use Mouse+$mod to drag floating windows to their wanted position
@@ -54,24 +54,27 @@
 ##############################################
 
 # My keybinds:
-	#Tabs between work-spaces
-	bindsym $mod+Tab		workspace next	
+		#Tabs between work-spaces
+		bindsym $mod+Tab		workspace next	
 	
-	#Gap bindings
-	bindsym $mod+t			split toggle
-	bindsym $mod+Shift+t	gaps inner current set 15; gaps outer current set 15
+		#Gap bindings
+		bindsym $mod+t			split toggle
+		bindsym $mod+Shift+t	gaps inner current set 15; gaps outer current set 15
 	
-	bindsym $mod+v			gaps inner current plus 10
-	bindsym $mod+Shift+v	gaps inner current minus 10
+		bindsym $mod+v			gaps inner current plus 10
+		bindsym $mod+Shift+v	gaps inner current minus 10
 
-	#Locks screen
-	bindsym $mod+BackSpace	exec betterlockscreen -l dimblur	
+		#Locks screen
+		bindsym $mod+BackSpace	exec betterlockscreen -l dimblur	
 
-	#Starts Ranger
-	bindsym $mod+r			exec $term -e ranger
+		#Starts Ranger
+		bindsym $mod+r			exec $term -e ranger
 
-	#Starts rofi
-	bindsym $mod+a			exec rofi -show run
+		#Starts rofi
+		bindsym $mod+a			exec rofi -show run
+
+		#Screenshot
+		bindsym Print				exec $term -e scrot '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots'
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal

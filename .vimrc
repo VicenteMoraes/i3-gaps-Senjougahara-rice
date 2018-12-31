@@ -19,6 +19,8 @@ call plug#end()
 	set softtabstop=4
 	set shiftwidth=4
 	set noexpandtab
+	set spell
+	set spelllang=pt_br
 	syntax on
 	set number relativenumber
 	set nocompatible
@@ -50,11 +52,11 @@ call plug#end()
 		inoremap		;c					#############################################<Enter>#<Tab><Tab><Tab><Tab><Tab><++><Tab><Tab><Tab><Tab><Tab>#<Enter>#############################################<Enter><Tab><++><Esc>3k0i
 
 "Autoclose
-		inoremap		(						()<Esc>i
-		inoremap		"						""<Esc>i
-		inoremap		'						''<Esc>i
-		inoremap		{						{}<Esc>i
-		inoremap		[						[]<Esc>i
+		inoremap		(						()<Left>
+		inoremap		"						""<Left>
+		inoremap		'						''<Left>
+		inoremap		{						{}<Left>
+		inoremap		[						[]<Left>
 
 """""""""""""""""""""""""""""""""""""""""""""
 "					PYTHON														"
@@ -81,11 +83,12 @@ augroup tex
 		autocmd FileType tex		colorscheme desert
 		autocmd FileType tex		set background=light
 		autocmd FileType tex		set tabstop=2
+		autocmd FileType tex		inoremap		<c-a>			<Esc>ggDG0r ~/Templates/Tex/abnt.tex
 augroup END
 
 function Build_Compile()
 		!latexmk -pdf %
-		!latexmk -c
+		!~/.scripts/latex-clean.sh %
 endfunction
 
 """""""""""""""""""""""""""""""""""""""""""""
@@ -95,4 +98,5 @@ augroup c
 		autocmd BufNewFile	 *.c  0r ~/Templates/C/basic.c
 		autocmd BufWritePost *.c	!gcc -Wall -ansi %
 		autocmd BufWritePost *.h	!g++ %
+		autocmd FileType c	inoremap ;s			struct{<Enter><++>;<Enter>}<++>;
 augroup END

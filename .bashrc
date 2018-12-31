@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-
+alias temp='~/.scripts/choose_template.sh'
 alias off='shutdown -h now'
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
