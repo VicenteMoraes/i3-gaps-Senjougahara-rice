@@ -14,8 +14,10 @@ Xft.hinting: 	true
 Xft.hintstyle:	hintfull
 
 !	FONTS		!
+
 URxvt.font:		xft:DejaVuSansMono:pixelsize=12
 URxvt.boldfont:	xft:DejaVuSansMono:bold:size=13
+
 
 !	COLORS		!
 
@@ -52,7 +54,6 @@ URxvt.boldfont:	xft:DejaVuSansMono:bold:size=13
 !URxvt.keysym.M-u:		perl:url-select:select_next
 !URxvt.url-select.launcher:	/usr/bin/xdg-open
 !URxvt.url-select.underline:	true
-
 
 
 !	ROFI COLOR	!
