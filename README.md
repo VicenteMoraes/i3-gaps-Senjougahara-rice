@@ -2,9 +2,9 @@
 My Simple Senjougahara Arch rice
 
 
-Some stuffs:
+## Some stuffs:
 
-#Composite manager:		compton
-#Mouse:					unclutter
-#Lock:					betterlockscreen
+1. Composite manager:		compton
+2. Mouse:					unclutter
+3. Lock:					betterlockscreen
 
